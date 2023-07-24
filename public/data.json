@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "img":"https://img.freepik.com/free-photo/red-buildings-households_1127-2024.jpg",
+    "title": "Dhaka University",
+   "link": " https://docs.google.com/document/d/17hIcBSrwn45ZKlhH8LWHq7twb_bnBaELvHctuiVNS3k/edit?usp=sharing"
+  },
+  {
+    "id": 2,
+    "img":"https://img.freepik.com/premium-photo/apartment-home-residential-building-complex-with-gate-concept_250132-4822.jpg",
+    "title": "Academic Institute",
+    "link": "https://docs.google.com/document/d/1uorJ8R7JgXsMMtgQcSHFBHiMdO6cacWPSczLJbt7A3U/edit?usp=sharing"
+  },
+  {
+    "id": 3,
+    "img":"https://img.freepik.com/premium-photo/waterfront-venetian-macao-casino-luxury-resort-macau-china-late-evening-golden-light-illumination_250132-28232.jpg",
+    "title": "Tech Academy",
+    "link": "https://docs.google.com/document/d/1OfHGCneKhFi_F8y7vecuWekLdDozFg6QlBWnV7zx2h4/edit?usp=sharing"
+  },
+  {
+    "id": 4,
+    "img":"https://img.freepik.com/premium-photo/ljubljana-slovenia-april-29-2018-water-fountain-new-square-ljubljana-slovenia_250132-28195.jpg",
+    "title": "Liberal Arts College",
+    "link": "https://docs.google.com/document/d/1g58CrfZrYPbcasJEnLAwgpGM09FkmzXCZr5QALlqcdI/edit?usp=sharing"
+  }
+  
+]
