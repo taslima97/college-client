@@ -1,12 +1,14 @@
+import { useLoaderData } from "react-router-dom";
 
 
-// const Profile = ({clients}) => {
-//     console.log(clients)
-//     return (
-//         <div>
+const Profile = () => {
+    const client = useLoaderData();
+    console.log(client)
+    return (
+        <div>
             
-//         </div>
-//     );
-// };
+        </div>
+    );
+};
 
-// export default Profile;
+export default Profile;

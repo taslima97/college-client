@@ -52,7 +52,7 @@ const NavBar = () => {
         </div>
         <div className="navbar-end">
          
-         <Link to='/'> {user && <span className='text-White'>{user.displayName}</span>}</Link>
+         <Link to='/profile'> {user && <span className='text-White'>{user.displayName}</span>}</Link>
         </div>
       </div>
     </>

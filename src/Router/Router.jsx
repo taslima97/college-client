@@ -10,6 +10,7 @@ import Admition from "../Pages/Admition/Admition";
 import MyCollege from "../Pages/MyCollege/MyCollege";
 import ErrorPage from "../Pages/ErrorPage/ErrorPage";
 import PriveteRouter from "./PriveteRouter";
+import Profile from "../Pages/Profile/Profile";
 
 
 
@@ -26,6 +27,11 @@ const router = createBrowserRouter([
       {
         path:'/details/:id',
         element:<PriveteRouter><Details></Details></PriveteRouter>,
+        loader: ({params}) => fetch(`https://college-server-three.vercel.app/Colleges/${params.id}`)
+      },
+      {
+        path:'/profile',
+        element: <Profile></Profile>,
         loader: ({params}) => fetch(`https://college-server-three.vercel.app/Colleges/${params.id}`)
       },
       {
