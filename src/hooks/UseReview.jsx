@@ -5,7 +5,7 @@ const UseReview = () => {
     const [reviews, setReviews] =useState([])
     const [loading, setLoading] = useState(true)
     useEffect(()=>{
-        fetch('http://localhost:5000/review')
+        fetch('https://college-server-three.vercel.app/review')
         .then(res=>res.json())
         .then(data=>{
           

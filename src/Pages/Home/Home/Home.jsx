@@ -1,3 +1,4 @@
+
 import Recarch from "../../Recearch/Recarch";
 import Banner from "../Banner/Banner";
 
@@ -15,6 +16,7 @@ const Home = () => {
             <Category></Category>
             <Recarch></Recarch>
           <Review></Review>
+          
             
         </div>
     );

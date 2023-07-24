@@ -6,12 +6,13 @@ import Swal from "sweetalert2";
 import { useForm } from "react-hook-form";
 
 
+
 const MyCollege = () => {
     const [clients, setClients] = useState([]);
     // console.log(clients)
     const { user } = useContext(AuthContext);
     // console.log(user.email)
-    const url = `http://localhost:5000/users/${user?.email}`;
+    const url = `https://college-server-three.vercel.app/users/${user?.email}`;
     useEffect(() => {
         fetch(url)
             .then(res => res.json())
@@ -21,7 +22,7 @@ const MyCollege = () => {
     const { register, handleSubmit, } = useForm();
     const onSubmit = data => {
         console.log(data)
-        fetch('http://localhost:5000/review', {
+        fetch('https://college-server-three.vercel.app/review', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

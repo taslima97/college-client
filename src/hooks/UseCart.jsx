@@ -6,7 +6,7 @@ const UseCart = () => {
     const [carts, setCart] =useState([])
     const [loading, setLoading] = useState(true)
     useEffect(()=>{
-        fetch('http://localhost:5000/Colleges')
+        fetch('https://college-server-three.vercel.app/Colleges')
         .then(res=>res.json())
         .then(data=>{
           
